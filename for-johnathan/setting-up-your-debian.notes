@@ -1,0 +1,26 @@
+So now you got yourself Debian up and working, here are a few
+things I want you to be doing before installing a few things.
+
+First we will need to update the os.. Open up your terminal
+and enter in this command:
+sudo apt-get update
+
+Enter in your password and it will prompt you to say Y or ^C,
+you can press enter here, which you comfirm the continuation.
+
+Now I will like you to dowload a few commands:
+sudo apt-get install emacs
+sudo apt-get install git
+sudo apt-get install python3
+sudo apt-get install aircrack-ng
+
+- Emacs is a very helpful code editor, though I know it is not
+for everyone, so you need to experiment with it... If your
+unsatisfied, I recommand you VSCode.
+- Git is an amazing file sharing command script in BASH, and I
+recommand you to dive really deep into the actual commands,
+understanding Git!
+- Python. I mean what else could I say?
+- Aircrack-ng, you should have learning this stuff, our
+researchers would be looking at the bad stuff, we will be
+delving deep in the use of aircrack-ng so be ready to see alot!
