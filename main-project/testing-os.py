@@ -25,13 +25,7 @@ while True:
     elif usr_input == "trusted":
         print("\033[31mNote\033[0m: The file you are listing off must be found in the same directory...")
         file_name_input = str(input("Name of file: "))
-        find_file = os.popen("find "+file_name_input).read()
-        print(find_file)
-        if find_file != file_name_input:
-            print("Can't find that file...")
-        else:
-            print("found it!")   
-            devices.trusted(file_name_input)
+        devices.trusted(file_name_input)
 
     # This is for leaving the program entirely
     elif usr_input == "quit" or usr_input == "exit" or usr_input == "q":
